@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.media,
+.field {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+img {
+  width: 70px;
+  height: 70px;
+}
+.media {
+  width: 50%;
+}
+.box,
+.count_calorie {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+input[type='text'] {
+  font-size: 20px;
+  width: 400px;
+  border-radius: 20px;
+}
